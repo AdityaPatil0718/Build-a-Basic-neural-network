@@ -4,6 +4,9 @@
 
 Build a Basic neural network from scratch using a high-level library like Tensorflow or Pytorch. Use appropriate dataset.
 
+**Dataset:**
+Shoe-Size
+
 **Theory:**
 
 Neural Networks are computational models that mimic the complex functions of the human brain. The neural networks consist of interconnected nodes or neurons that process and learn from data, enabling tasks such as pattern recognition and decision making in machine learning.
@@ -33,7 +36,7 @@ Loss Function:
 
 •	Training: During training with different data samples, the entire process of forward propagation, loss calculation, and backpropagation is done iteratively, enabling the network to adapt and learn patterns from the data.
 
-•	Actvation Functions: Model non-linearity is introduced by activation functions like the rectified linear unit (ReLU) or sigmoid. Their decision on whether to “fire” a neuron is based on the whole weighted input.
+•	Activation Functions: Model non-linearity is introduced by activation functions like the rectified linear unit (ReLU) or sigmoid. Their decision on whether to “fire” a neuron is based on the whole weighted input.
 Predicting a numerical value
 
 E.g. predicting the price of a product
@@ -78,6 +81,6 @@ Binary Cross Entropy — Cross entropy quantifies the difference between two pro
 
 **Conclusion:**
 
-A single perceptron can capture simple linear relationships, but it struggles to accurately model complex non-linear relationships such as those found in XOR and XNOR gates.
+Basic neural networks with TensorFlow are effective for simple tasks like the Iris dataset but may need deeper architectures for complex data. Preprocessing, like feature scaling, is crucial. Further experimentation is often necessary for optimal performance on tougher problems. 	
 
 
